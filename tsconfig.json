@@ -8,8 +8,9 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"]
   },
-  "include": ["src", "tests"],
+  "include": ["src", "tests", "scripts"],
   "exclude": ["tests/fixtures"]
 }
