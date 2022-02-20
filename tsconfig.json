@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "es2019",
     "module": "esnext",
+    "lib": ["es2019"],
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "noImplicitAny": true,
-    "allowJs": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src", "tests"],
+  "exclude": ["tests/fixtures"]
 }
