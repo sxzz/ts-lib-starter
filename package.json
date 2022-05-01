@@ -1,5 +1,6 @@
 {
   "name": "node-lib-starter",
+  "packageManager": "pnpm@7.0.0",
   "version": "0.0.0",
   "description": "My awesome typescript library",
   "license": "MIT",
@@ -37,6 +38,6 @@
     "vitest": "^0.8.0"
   },
   "engines": {
-    "node": ">=14.17.0"
+    "node": ">=14.19.0"
   }
 }
