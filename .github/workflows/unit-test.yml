@@ -7,42 +7,48 @@ on:
     branches: [main]
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Setup
+        run: npm i -g @antfu/ni
+
+      - name: Install
+        run: nci
+
+      - name: Lint
+        run: nr lint
+
   test:
+    runs-on: ${{ matrix.os }}
+
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
         node-version: [14.19.0, 16.x, 18]
       fail-fast: false
 
-    runs-on: ${{ matrix.os }}
-
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - name: Set node ${{ matrix.node }}
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ matrix.node }}
 
-      - name: Cache ~/.pnpm-store
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-pnpm-store
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-test-${{ env.cache-name }}-
-            ${{ runner.os }}-${{ matrix.node-version }}-test-
-            ${{ runner.os }}-
+      - name: Setup
+        run: npm i -g @antfu/ni
 
-      - name: Install pnpm
-        run: npm i -g pnpm
-
-      - name: Install deps
-        run: pnpm i --frozen-lockfile
+      - name: Install
+        run: nci
 
       - name: Build
-        run: pnpm build
+        run: nr build
 
       - name: Test
-        run: pnpm test
+        run: nr test
