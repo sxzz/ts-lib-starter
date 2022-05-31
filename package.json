@@ -9,6 +9,7 @@
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     "require": "./dist/index.js",
     "import": "./dist/index.mjs"
@@ -16,7 +17,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "types": "./dist/index.d.ts",
   "scripts": {
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
     "lint:fix": "pnpm run lint -- --fix",
