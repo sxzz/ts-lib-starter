@@ -22,12 +22,14 @@
     "lint:fix": "pnpm run lint -- --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "test": "vitest",
+    "release": "bumpp --commit --push --tag && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.1.1",
     "@sxzz/eslint-config-ts": "^2.1.1",
     "@types/node": "*",
+    "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
     "eslint-define-config": "^1.4.0",
     "fast-glob": "^3.2.11",
