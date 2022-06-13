@@ -6,13 +6,13 @@ specifiers:
   '@types/node': '*'
   bumpp: ^7.1.1
   eslint: ^8.17.0
-  eslint-define-config: ^1.5.0
+  eslint-define-config: ^1.5.1
   fast-glob: ^3.2.11
   prettier: ^2.6.2
-  tsup: ^6.1.0
+  tsup: ^6.1.2
   tsx: ^3.4.2
   typescript: ^4.7.3
-  vitest: ^0.14.0
+  vitest: ^0.14.2
 
 devDependencies:
   '@sxzz/eslint-config-prettier': 2.2.2_eslint@8.17.0
@@ -20,13 +20,13 @@ devDependencies:
   '@types/node': 17.0.36
   bumpp: 7.1.1
   eslint: 8.17.0
-  eslint-define-config: 1.5.0
+  eslint-define-config: 1.5.1
   fast-glob: 3.2.11
   prettier: 2.6.2
-  tsup: 6.1.0_typescript@4.7.3
+  tsup: 6.1.2_typescript@4.7.3
   tsx: 3.4.2
   typescript: 4.7.3
-  vitest: 0.14.0
+  vitest: 0.14.2
 
 packages:
 
@@ -141,7 +141,7 @@ packages:
       eslint: '>=7.4.0'
     dependencies:
       eslint: 8.17.0
-      eslint-define-config: 1.5.0
+      eslint-define-config: 1.5.1
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.17.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.26.0_er3f6f6cekbq4lwnvn7afiwhn4
@@ -163,7 +163,7 @@ packages:
     dependencies:
       eslint: 8.17.0
       eslint-config-prettier: 8.5.0_eslint@8.17.0
-      eslint-define-config: 1.5.0
+      eslint-define-config: 1.5.1
       eslint-plugin-prettier: 4.0.0_ucegkljdju7q4zmvwxzqoprf3y
       eslint-plugin-yml: 1.0.0_eslint@8.17.0
       prettier: 2.6.2
@@ -180,7 +180,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 5.27.0_kor2e3kwnnzugzo3aovmfcq2la
       '@typescript-eslint/parser': 5.27.0_ud6rd4xtew5bv4yhvkvu24pzm4
       eslint: 8.17.0
-      eslint-define-config: 1.5.0
+      eslint-define-config: 1.5.1
       typescript: 4.7.3
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -1235,8 +1235,8 @@ packages:
       eslint: 8.17.0
     dev: true
 
-  /eslint-define-config/1.5.0:
-    resolution: {integrity: sha512-2C6tmeMRAXQ+y5vxbXsOjn/CTmMseJ0eRXsK+ThFEjeibSpMmurPq2SjBGzl5Ha4pTpVSMJQc0lzE8Y3hPYbHQ==}
+  /eslint-define-config/1.5.1:
+    resolution: {integrity: sha512-6gxrmN7aKGffaO8dCtMMKyo3IxbWymMQ248p4lf8GbaFRcLsqOXHFdUhhM0Hcy1NudvnpwHcfbDf7Nh9pIm1TA==}
     engines: {node: '>= 14.6.0', npm: '>= 6.0.0', pnpm: '>= 7.0.0'}
     dev: true
 
@@ -2708,7 +2708,7 @@ packages:
     dev: true
 
   /thenify-all/1.6.0:
-    resolution: {integrity: sha1-GhkY1ALY/D+Y+/I02wvMjMEOlyY=}
+    resolution: {integrity: sha512-RNxQH/qI8/t3thXJDwcstUO4zeqo64+Uy/+sNVRBx4Xn2OX+OZ9oP+iJnNFqplFra2ZUVeKCSa2oVWi3T4uVmA==}
     engines: {node: '>=0.8'}
     dependencies:
       thenify: 3.3.1
@@ -2738,7 +2738,7 @@ packages:
     dev: true
 
   /tr46/1.0.1:
-    resolution: {integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=}
+    resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
       punycode: 2.1.1
     dev: true
@@ -2765,8 +2765,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tsup/6.1.0_typescript@4.7.3:
-    resolution: {integrity: sha512-kKSzFbX996OXkbQif23LV0xDDvxnhH95Hw39ku7Kx1NEfJxcxvqexGGEDgRyd5dlzIJI4U8mySfPeq5iExYwnw==}
+  /tsup/6.1.2_typescript@4.7.3:
+    resolution: {integrity: sha512-Hw4hKDHaAQkm2eVavlArEOrAPA93bziRDamdfwaNs0vXQdUUFfItvUWY0L/F6oQQMVh6GvjQq1+HpDXw8UKtPA==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -2916,8 +2916,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.14.0:
-    resolution: {integrity: sha512-3Ns7c6TindS6OmweY4dU7sWT7g/YJBenwsMdUMEO/oS81bzoCEaA58vlg/9U1WRjrNFwQYsuyISehAvCKwoMZQ==}
+  /vitest/0.14.2:
+    resolution: {integrity: sha512-vXQUl8OUCqHmxKWscMGL+6Xl1pBJmYHZ8N85iNpLGrirAC2vhspu7b73ShRcLonmZT44BYZW+LBAVvn0L4jyVA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -2986,7 +2986,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
   /yallist/4.0.0:
