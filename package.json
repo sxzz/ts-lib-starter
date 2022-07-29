@@ -19,22 +19,22 @@
   },
   "scripts": {
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
-    "lint:fix": "pnpm run lint -- --fix",
+    "lint:fix": "pnpm run lint --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "test": "vitest",
-    "release": "bumpp --commit --push --tag && pnpm publish",
+    "release": "bumpp && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.3.4",
-    "@sxzz/eslint-config-ts": "^2.3.4",
+    "@sxzz/eslint-config-prettier": "^2.3.5",
+    "@sxzz/eslint-config-ts": "^2.3.5",
     "@types/node": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.20.0",
     "eslint-define-config": "^1.5.1",
     "fast-glob": "^3.2.11",
     "prettier": "^2.7.1",
-    "tsup": "^6.1.3",
+    "tsup": "^6.2.0",
     "tsx": "^3.8.0",
     "typescript": "^4.7.4",
     "vitest": "^0.19.1"
