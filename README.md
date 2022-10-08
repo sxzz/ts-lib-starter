@@ -19,6 +19,8 @@ Features:
 
 To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, add `skip-release` to commit message.
 
+<!-- Remove aboves -->
+
 ## Install
 
 ```bash
