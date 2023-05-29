@@ -1,7 +1,7 @@
 {
   "name": "node-lib-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.0",
   "description": "My awesome typescript library",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/node-lib-starter#readme",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "^18.16.14",
+    "@types/node": "^18.16.16",
     "bumpp": "^9.1.0",
     "eslint": "^8.41.0",
     "eslint-define-config": "^1.20.0",
