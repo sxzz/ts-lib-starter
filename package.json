@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.0",
   "description": "My awesome typescript library",
+  "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/ts-lib-starter#readme",
   "bugs": {
@@ -16,13 +17,13 @@
     "dist"
   ],
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./package.json": "./package.json"
   },
@@ -30,7 +31,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "test": "vitest",
@@ -38,12 +39,10 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.4.6",
-    "@sxzz/eslint-config-ts": "^2.4.6",
+    "@sxzz/eslint-config": "^3.0.0",
     "@types/node": "^20.2.5",
     "bumpp": "^9.1.1",
     "eslint": "^8.42.0",
-    "eslint-define-config": "^1.20.0",
     "fast-glob": "^3.2.12",
     "prettier": "^2.8.8",
     "tsup": "^6.7.0",
