@@ -40,8 +40,8 @@
   "devDependencies": {
     "@sxzz/eslint-config-prettier": "^2.4.6",
     "@sxzz/eslint-config-ts": "^2.4.6",
-    "@types/node": "^18.16.16",
-    "bumpp": "^9.1.0",
+    "@types/node": "^20.2.5",
+    "bumpp": "^9.1.1",
     "eslint": "^8.42.0",
     "eslint-define-config": "^1.20.0",
     "fast-glob": "^3.2.12",
