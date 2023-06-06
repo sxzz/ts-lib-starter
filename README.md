@@ -1,6 +1,6 @@
-# node-lib-starter [![npm](https://img.shields.io/npm/v/node-lib-starter.svg)](https://npmjs.com/package/node-lib-starter)
+# ts-lib-starter [![npm](https://img.shields.io/npm/v/ts-lib-starter.svg)](https://npmjs.com/package/ts-lib-starter)
 
-[![Unit Test](https://github.com/sxzz/node-lib-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/node-lib-starter/actions/workflows/unit-test.yml)
+[![Unit Test](https://github.com/sxzz/ts-lib-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/ts-lib-starter/actions/workflows/unit-test.yml)
 
 <!-- Remove belows -->
 
@@ -8,7 +8,7 @@ Forked from [egoist/ts-lib-starter](https://github.com/egoist/ts-lib-starter)
 
 ## Using this template
 
-- Search `node-lib-starter` and replace it with your custom package name.
+- Search `ts-lib-starter` and replace it with your custom package name.
 - Search `sxzz` and replace it with your name.
 
 Features:
@@ -24,7 +24,7 @@ To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, ad
 ## Install
 
 ```bash
-npm i node-lib-starter
+npm i ts-lib-starter
 ```
 
 ## Sponsors

@@ -1,16 +1,16 @@
 {
-  "name": "node-lib-starter",
+  "name": "ts-lib-starter",
   "version": "0.0.0",
   "packageManager": "pnpm@8.6.0",
   "description": "My awesome typescript library",
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/node-lib-starter#readme",
+  "homepage": "https://github.com/sxzz/ts-lib-starter#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/node-lib-starter/issues"
+    "url": "https://github.com/sxzz/ts-lib-starter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/node-lib-starter.git"
+    "url": "git+https://github.com/sxzz/ts-lib-starter.git"
   },
   "files": [
     "dist"
