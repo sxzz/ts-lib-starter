@@ -34,7 +34,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --cache .",
     "lint:fix": "pnpm run lint --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "test": "vitest",
@@ -42,11 +42,11 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.1.2",
+    "@sxzz/eslint-config": "^3.2.1",
     "@sxzz/prettier-config": "^1.0.4",
-    "@types/node": "^20.4.1",
+    "@types/node": "^20.4.2",
     "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.45.0",
     "fast-glob": "^3.3.0",
     "prettier": "^3.0.0",
     "tsup": "^7.1.0",
