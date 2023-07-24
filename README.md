@@ -10,14 +10,13 @@ Forked from [egoist/ts-lib-starter](https://github.com/egoist/ts-lib-starter)
 
 - Search `ts-lib-starter` and replace it with your custom package name.
 - Search `sxzz` and replace it with your name.
+- Remove sponsors below.
 
 Features:
 
 - Package manager [pnpm](https://pnpm.js.org/), safe and fast
 - Bundle with [tsup](https://github.com/egoist/tsup)
 - Test with [vitest](https://vitest.dev)
-
-To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, add `skip-release` to commit message.
 
 <!-- Remove aboves -->
 
