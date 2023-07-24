@@ -1,7 +1,7 @@
 {
   "name": "ts-lib-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.6.7",
+  "packageManager": "pnpm@8.6.10",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
@@ -42,12 +42,12 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.2.1",
+    "@sxzz/eslint-config": "^3.2.3",
     "@sxzz/prettier-config": "^1.0.4",
-    "@types/node": "^20.4.2",
+    "@types/node": "^20.4.4",
     "bumpp": "^9.1.1",
     "eslint": "^8.45.0",
-    "fast-glob": "^3.3.0",
+    "fast-glob": "^3.3.1",
     "prettier": "^3.0.0",
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
