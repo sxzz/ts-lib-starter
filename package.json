@@ -40,11 +40,11 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.6.1",
+    "@sxzz/eslint-config": "^3.6.2",
     "@sxzz/prettier-config": "^1.0.4",
-    "@types/node": "^20.8.0",
+    "@types/node": "^20.8.3",
     "bumpp": "^9.2.0",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "fast-glob": "^3.3.1",
     "prettier": "^3.0.3",
     "tsup": "^7.2.0",
