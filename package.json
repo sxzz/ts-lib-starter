@@ -43,13 +43,13 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^3.7.5",
     "@sxzz/prettier-config": "^2.0.0",
-    "@types/node": "^20.10.0",
+    "@types/node": "^20.10.3",
     "bumpp": "^9.2.0",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.1.0",
     "tsup": "^8.0.1",
-    "tsx": "^4.5.0",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.2",
     "vitest": "^0.34.6"
   },
