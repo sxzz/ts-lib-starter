@@ -36,4 +36,4 @@ npm i ts-lib-starter
 
 ## License
 
-[MIT](./LICENSE) License © 2023 [三咲智子 Kevin Deng](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2024 [三咲智子 Kevin Deng](https://github.com/sxzz)
