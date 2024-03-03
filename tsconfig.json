@@ -9,6 +9,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "skipLibCheck": true
   },
   "include": ["src", "tests"]
