@@ -16,7 +16,7 @@ Features:
 
 - Package manager [pnpm](https://pnpm.js.org/), safe and fast
 - Bundle with [tsup](https://github.com/egoist/tsup)
-- Test with [vitest](https://vitest.dev)
+- Test with [Vitest](https://vitest.dev)
 
 <!-- Remove aboves -->
 
