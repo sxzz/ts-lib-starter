@@ -15,8 +15,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2
       '@types/node':
-        specifier: ^20.16.1
-        version: 20.16.1
+        specifier: ^20.16.3
+        version: 20.16.3
       bumpp:
         specifier: ^9.5.2
         version: 9.5.2
@@ -28,16 +28,16 @@ importers:
         version: 3.3.3
       tsup:
         specifier: ^8.2.4
-        version: 8.2.4(jiti@1.21.6)(postcss@8.4.33)(tsx@4.18.0)(typescript@5.5.4)
+        version: 8.2.4(jiti@1.21.6)(postcss@8.4.33)(tsx@4.19.0)(typescript@5.5.4)
       tsx:
-        specifier: ^4.18.0
-        version: 4.18.0
+        specifier: ^4.19.0
+        version: 4.19.0
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
       vitest:
         specifier: ^2.0.5
-        version: 2.0.5(@types/node@20.16.1)
+        version: 2.0.5(@types/node@20.16.3)
 
 packages:
 
@@ -541,8 +541,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@20.16.1':
-    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
+  '@types/node@20.16.3':
+    resolution: {integrity: sha512-/wdGiWRkMOm53gAsSyFMXFZHbVg7C6CbkrzHNpaHoYfsUWPg7m6ZRKtvQjgvQ9i8WT540a3ydRlRQbxjY30XxQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2063,8 +2063,8 @@ packages:
       typescript:
         optional: true
 
-  tsx@4.18.0:
-    resolution: {integrity: sha512-a1jaKBSVQkd6yEc1/NI7G6yHFfefIcuf3QJST7ZEyn4oQnxLYrZR5uZAM8UrwUa3Ge8suiZHcNS1gNrEvmobqg==}
+  tsx@4.19.0:
+    resolution: {integrity: sha512-bV30kM7bsLZKZIOCHeMNVMJ32/LuJzLVajkQI/qf92J2Qr08ueLQvW00PUZGiuLPP760UINwupgUj8qrSCPUKg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2611,7 +2611,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@20.16.1':
+  '@types/node@20.16.3':
     dependencies:
       undici-types: 6.19.6
 
@@ -3589,7 +3589,7 @@ snapshots:
       jiti-v1: jiti@1.21.6
       pathe: 1.1.2
       pkg-types: 1.1.3
-      tsx: 4.18.0
+      tsx: 4.19.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3952,13 +3952,13 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  postcss-load-config@6.0.1(jiti@1.21.6)(postcss@8.4.33)(tsx@4.18.0):
+  postcss-load-config@6.0.1(jiti@1.21.6)(postcss@8.4.33)(tsx@4.19.0):
     dependencies:
       lilconfig: 3.1.2
     optionalDependencies:
       jiti: 1.21.6
       postcss: 8.4.33
-      tsx: 4.18.0
+      tsx: 4.19.0
 
   postcss-selector-parser@6.0.15:
     dependencies:
@@ -4232,7 +4232,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsup@8.2.4(jiti@1.21.6)(postcss@8.4.33)(tsx@4.18.0)(typescript@5.5.4):
+  tsup@8.2.4(jiti@1.21.6)(postcss@8.4.33)(tsx@4.19.0)(typescript@5.5.4):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
@@ -4244,7 +4244,7 @@ snapshots:
       globby: 11.1.0
       joycon: 3.1.1
       picocolors: 1.0.1
-      postcss-load-config: 6.0.1(jiti@1.21.6)(postcss@8.4.33)(tsx@4.18.0)
+      postcss-load-config: 6.0.1(jiti@1.21.6)(postcss@8.4.33)(tsx@4.19.0)
       resolve-from: 5.0.0
       rollup: 4.19.0
       source-map: 0.8.0-beta.0
@@ -4259,7 +4259,7 @@ snapshots:
       - tsx
       - yaml
 
-  tsx@4.18.0:
+  tsx@4.19.0:
     dependencies:
       esbuild: 0.23.0
       get-tsconfig: 4.7.5
@@ -4324,13 +4324,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@2.0.5(@types/node@20.16.1):
+  vite-node@2.0.5(@types/node@20.16.3):
     dependencies:
       cac: 6.7.14
       debug: 4.3.6
       pathe: 1.1.2
       tinyrainbow: 1.2.0
-      vite: 5.0.12(@types/node@20.16.1)
+      vite: 5.0.12(@types/node@20.16.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4341,16 +4341,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.0.12(@types/node@20.16.1):
+  vite@5.0.12(@types/node@20.16.3):
     dependencies:
       esbuild: 0.19.11
       postcss: 8.4.33
       rollup: 4.19.0
     optionalDependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.16.3
       fsevents: 2.3.3
 
-  vitest@2.0.5(@types/node@20.16.1):
+  vitest@2.0.5(@types/node@20.16.3):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.5
@@ -4368,11 +4368,11 @@ snapshots:
       tinybench: 2.8.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.0.12(@types/node@20.16.1)
-      vite-node: 2.0.5(@types/node@20.16.1)
+      vite: 5.0.12(@types/node@20.16.3)
+      vite-node: 2.0.5(@types/node@20.16.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.16.1
+      '@types/node': 20.16.3
     transitivePeerDependencies:
       - less
       - lightningcss
