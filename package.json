@@ -45,9 +45,9 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^4.2.0",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^20.16.5",
-    "bumpp": "^9.5.2",
-    "eslint": "^9.11.0",
+    "@types/node": "^20.16.10",
+    "bumpp": "^9.6.1",
+    "eslint": "^9.11.1",
     "prettier": "^3.3.3",
     "tsup": "^8.3.0",
     "tsx": "^4.19.1",
