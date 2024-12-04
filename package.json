@@ -31,8 +31,8 @@
   "scripts": {
     "lint": "eslint --cache .",
     "lint:fix": "pnpm run lint --fix",
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "format": "prettier --cache --write .",
@@ -46,7 +46,7 @@
     "bumpp": "^9.8.1",
     "eslint": "^9.16.0",
     "prettier": "^3.4.1",
-    "tsup": "^8.3.5",
+    "tsdown": "^0.4.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vitest": "^2.1.6"
