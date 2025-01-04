@@ -45,6 +45,7 @@
     "@types/node": "^22.10.2",
     "bumpp": "^9.9.2",
     "eslint": "^9.17.0",
+    "oxc-transform": "^0.44.0",
     "prettier": "^3.4.2",
     "tsdown": "^0.5.2",
     "tsx": "^4.19.2",
