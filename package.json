@@ -1,7 +1,7 @@
 {
   "name": "ts-lib-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@9.15.3",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
