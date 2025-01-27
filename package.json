@@ -43,7 +43,7 @@
     "@sxzz/eslint-config": "^4.6.0",
     "@sxzz/prettier-config": "^2.1.0",
     "@types/node": "^22.10.10",
-    "bumpp": "^9.11.1",
+    "bumpp": "^10.0.1",
     "eslint": "^9.19.0",
     "oxc-transform": "^0.48.1",
     "prettier": "^3.4.2",
