@@ -1,14 +1,14 @@
-# ts-lib-starter [![npm](https://img.shields.io/npm/v/ts-lib-starter.svg)](https://npmjs.com/package/ts-lib-starter)
+# ts-starter [![npm](https://img.shields.io/npm/v/ts-starter.svg)](https://npmjs.com/package/ts-starter)
 
-[![Unit Test](https://github.com/sxzz/ts-lib-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/ts-lib-starter/actions/workflows/unit-test.yml)
+[![Unit Test](https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml)
 
 <!-- Remove belows -->
 
-Forked from [egoist/ts-lib-starter](https://github.com/egoist/ts-lib-starter)
+Forked from [egoist/ts-starter](https://github.com/egoist/ts-starter)
 
 ## Using this template
 
-- Search `ts-lib-starter` and replace it with your custom package name.
+- Search `ts-starter` and replace it with your custom package name.
 - Search `sxzz` and replace it with your name.
 - Remove sponsors below.
 
@@ -23,7 +23,7 @@ Features:
 ## Install
 
 ```bash
-npm i ts-lib-starter
+npm i ts-starter
 ```
 
 ## Sponsors

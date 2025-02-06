@@ -1,17 +1,17 @@
 {
-  "name": "ts-lib-starter",
+  "name": "ts-starter",
   "version": "0.0.0",
   "packageManager": "pnpm@10.2.0",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/ts-lib-starter#readme",
+  "homepage": "https://github.com/sxzz/ts-starter#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/ts-lib-starter/issues"
+    "url": "https://github.com/sxzz/ts-starter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/ts-lib-starter.git"
+    "url": "git+https://github.com/sxzz/ts-starter.git"
   },
   "author": "三咲智子 Kevin Deng <sxzz@sxzz.moe>",
   "funding": "https://github.com/sponsors/sxzz",
